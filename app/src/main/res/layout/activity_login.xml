@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovog480.iseooalpha.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/biruMuda">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo"
+            android:layout_marginTop="35dp"
+            android:layout_marginBottom="35dp"/>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/TextLabel"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp">
+
+            <EditText
+                android:id="@+id/usernameLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="User Name"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:singleLine="true"
+                android:textColor="@color/putih"/>
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/TextLabel"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp">
+
+            <EditText
+                android:id="@+id/passwordLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:password="true"
+                android:singleLine="true"
+                android:textColor="@color/putih"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/Btnlogin"
+            android:onClick="validasiLogin"
+            android:background="@color/biruTua"
+            android:textColor="@color/putih"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="login"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="45dp"/>
+
+        <TextView
+            android:id="@+id/lupaPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="forgot your password? or"
+            android:textColor="@color/putih"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:onClick="true"/>
+
+        <Button
+            android:id="@+id/Btnregister"
+            android:background="@color/biruTua"
+            android:textColor="@color/putih"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="register"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="45dp"/>
+    </LinearLayout>
+
+</LinearLayout>

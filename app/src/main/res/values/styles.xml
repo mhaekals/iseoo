@@ -1,0 +1,31 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/biruMuda</item>
+        <item name="colorPrimaryDark">@color/biruMuda</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name="TextLabel" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Hint color and label color in FALSE state -->
+        <item name="android:textColorHint">@color/putih</item>
+        <!--<item name="android:textSize">20sp</item>
+        <!- Label color in TRUE state and bar color FALSE and TRUE State -->
+        <item name="colorAccent">@color/biruTua</item>
+        <item name="colorControlNormal">@color/biruTua</item>
+        <item name="colorControlActivated">@color/putih</item>
+    </style>
+
+    <style name="TextLabels" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Hint color and label color in FALSE state -->
+        <item name="android:textColorHint">@color/biruMuda</item>
+        <!--<item name="android:textSize">20sp</item>
+        <!- Label color in TRUE state and bar color FALSE and TRUE State -->
+        <item name="colorAccent">@color/biruTua</item>
+        <item name="colorControlNormal">@color/biruTua</item>
+        <item name="colorControlActivated">@color/biruTua</item>
+    </style>
+
+</resources>

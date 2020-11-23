@@ -1,0 +1,77 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovog480.iseooalpha.fragment.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="LAYANAN"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="25dp"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/sponsor_logo"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/s764600568245545599_p12_i2_w755"
+                android:onClick="true"
+                android:layout_gravity="center"
+                />
+            <Space
+                android:layout_width="60dp"
+                android:layout_height="10dp" />
+            <ImageView
+                android:id="@+id/jasa_logo"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/skylights_montreal_repairs"
+                android:onClick="true"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sponsor"
+                android:textSize="20dp"
+                android:textColor="@android:color/black"
+                />
+
+            <Space
+                android:layout_width="100dp"
+                android:layout_height="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jasa"
+                android:textSize="20dp"
+                android:textColor="@android:color/black"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovog480.iseooalpha.CreateEventActivity">
+
+    <include
+        layout="@layout/toolbar_balik"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="?attr/actionBarSize">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TAMBAH EVENT"
+            android:textColor="@android:color/black"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:theme="@style/TextLabels"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp">
+
+                <EditText
+                    android:id="@+id/event_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Nama Event"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:singleLine="true"
+                    android:textColor="@color/biruTua"/>
+            </android.support.design.widget.TextInputLayout>
+
+           <!-- <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:theme="@style/TextLabels"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp">
+
+                <EditText
+                    android:id="@+id/event_type"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Jenis Event"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:singleLine="true"
+                    android:textColor="@color/biruTua"/>
+            </android.support.design.widget.TextInputLayout>-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jenis Event :"
+                android:textColor="@color/biruTua"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="42dp"
+                android:layout_marginRight="25dp"/>
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="65dp"
+                android:layout_marginRight="25dp"
+                android:id="@+id/spinnerJenisEvent"
+                android:spinnerMode="dropdown">
+            </Spinner>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:theme="@style/TextLabels"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp">
+
+                <EditText
+                    android:id="@+id/creator_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Creator"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:singleLine="true"
+                    android:textColor="@color/biruTua"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:theme="@style/TextLabels"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp">
+
+                <EditText
+                    android:id="@+id/event_desc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Deskripsi Event"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:singleLine="true"
+                    android:textColor="@color/biruTua"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:theme="@style/TextLabels"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp">
+
+                <EditText
+                    android:id="@+id/event_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Tanggal Event"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:clickable="true"
+                    android:editable="false"
+                    android:singleLine="true"
+                    android:focusable="false"
+                    android:inputType="date"
+                    android:textColor="@color/biruTua"/>
+            </android.support.design.widget.TextInputLayout>
+
+
+
+
+
+            <Button
+                android:id="@+id/submit_event"
+                android:background="@color/biruTua"
+                android:textColor="@color/putih"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="submit"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="45dp"
+                android:layout_marginRight="45dp"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

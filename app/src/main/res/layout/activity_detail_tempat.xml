@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        layout="@layout/toolbar_balik"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="15dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:id="@+id/thumbnail_image_header"
+                android:src="@drawable/skylights_montreal_repairs"
+                android:fitsSystemWindows="true"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/namaSponsor"
+                android:text="Nama Tempat :"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@android:color/black" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtNamaSponsor"
+                android:textAlignment="center"
+                android:textColor="@color/biruTua"
+                android:layout_marginTop="3dp"
+                android:textSize="15sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/hargaSponsor"
+                android:text="Harga Tempat :"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@android:color/black" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtHargaSponsor"
+                android:textAlignment="center"
+                android:textColor="@color/biruTua"
+                android:layout_marginTop="3dp"
+                android:textSize="15sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/kontakSponsor"
+                android:text="Kontak Tempat :"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@android:color/black" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtKontakSponsor"
+                android:textAlignment="center"
+                android:textColor="@color/biruTua"
+                android:layout_marginTop="3dp"
+                android:textSize="15sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/deskripsiSponsor"
+                android:text="Deskripsi Tempat :"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@android:color/black" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtDeskripsiSponsor"
+                android:textAlignment="center"
+                android:textColor="@color/biruTua"
+                android:layout_marginTop="3dp"
+                android:textSize="15sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/jenisEvent"
+                android:text="Untuk Event :"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@android:color/black" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtJenisEvent"
+                android:textAlignment="center"
+                android:textColor="@color/biruTua"
+                android:layout_marginTop="3dp"
+                android:textSize="15sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/pemilikSponsor"
+                android:text="Pemilik Tempat :"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@android:color/black" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtPemilik"
+                android:textAlignment="center"
+                android:textColor="@color/biruTua"
+                android:layout_marginTop="3dp"
+                android:textSize="15sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/idSponsor"
+                android:text="ID Jasa :"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@android:color/black" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtIdJasa"
+                android:textAlignment="center"
+                android:textColor="@color/biruTua"
+                android:layout_marginTop="3dp"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/BtnRequest"
+                android:background="@color/biruTua"
+                android:textColor="@color/putih"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="order"
+                android:layout_marginTop="15dp" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="3dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

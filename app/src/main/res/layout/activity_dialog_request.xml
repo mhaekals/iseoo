@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovog480.iseooalpha.dialog.DialogRequestActivity"
+    android:orientation="vertical">
+
+
+    <include
+        layout="@layout/toolbar_balik"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:padding="5dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FORM REQUEST"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:layout_marginTop="5dp"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:theme="@style/TextLabels"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp">
+
+        <EditText
+            android:id="@+id/lama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Lama Pemakaian/Hari"
+            android:inputType="number"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:singleLine="true"
+            android:textColor="@color/biruTua"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:theme="@style/TextLabels"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp">
+
+        <EditText
+            android:id="@+id/mulai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tanggal Mulai Event"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:clickable="true"
+            android:editable="false"
+            android:singleLine="true"
+            android:focusable="false"
+            android:inputType="date"
+            android:textColor="@color/biruTua"/>
+    </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:theme="@style/TextLabels"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp">
+
+            <EditText
+                android:id="@+id/id_event"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="ID Event"
+                android:inputType="number"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:singleLine="true"
+                android:textColor="@color/biruTua"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:theme="@style/TextLabels"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp">
+
+            <EditText
+                android:id="@+id/id_sponsor"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="ID Sponsor"
+                android:inputType="number"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:singleLine="true"
+                android:textColor="@color/biruTua"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/submit_request"
+            android:background="@color/biruTua"
+            android:textColor="@color/putih"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="submit"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="45dp"/>
+
+
+
+    </LinearLayout>
+</RelativeLayout>

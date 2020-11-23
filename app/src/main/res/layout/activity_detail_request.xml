@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovog480.iseooalpha.DetailRequestActivity">
+
+    <include
+        layout="@layout/toolbar_balik"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="15dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ID Order :"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@android:color/black" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtIdOrder"
+                android:textAlignment="center"
+                android:textColor="@color/biruTua"
+                android:layout_marginTop="3dp"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nama Event :"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@android:color/black" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtNamaEvent"
+                android:textAlignment="center"
+                android:textColor="@color/biruTua"
+                android:layout_marginTop="3dp"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jenis Event :"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@android:color/black" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtJenisEvent"
+                android:textAlignment="center"
+                android:textColor="@color/biruTua"
+                android:layout_marginTop="3dp"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Creator :"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@android:color/black" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtCreator"
+                android:textAlignment="center"
+                android:textColor="@color/biruTua"
+                android:layout_marginTop="3dp"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nama Sponsor :"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@android:color/black" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtNamaJasa"
+                android:textAlignment="center"
+                android:textColor="@color/biruTua"
+                android:layout_marginTop="3dp"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lama Event :"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@android:color/black" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtLamaEvent"
+                android:textAlignment="center"
+                android:textColor="@color/biruTua"
+                android:layout_marginTop="3dp"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tanggal Mulai :"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@android:color/black" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtNamaTgglMulai"
+                android:textAlignment="center"
+                android:textColor="@color/biruTua"
+                android:layout_marginTop="3dp"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tanggal Request :"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@android:color/black" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtNamaTgglOrder"
+                android:textAlignment="center"
+                android:textColor="@color/biruTua"
+                android:layout_marginTop="3dp"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Status :"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@android:color/black" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtStatus"
+                android:textAlignment="center"
+                android:textColor="@color/biruTua"
+                android:layout_marginTop="3dp"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/id_order"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:hint="ID"/>
+
+            <EditText
+                android:id="@+id/id_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:hint="status"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/BtnApprove"
+                android:background="@color/biruTua"
+                android:textColor="@color/putih"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="approve"
+                android:layout_marginTop="15dp" />
+            <Button
+                android:id="@+id/BtnNApprove"
+                android:background="@color/biruTua"
+                android:textColor="@color/putih"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="not approve"
+                android:layout_marginTop="15dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="3dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginBottom="5dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/thumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:clickable="true"
+            android:src="@drawable/skylights_montreal_repairs"
+            android:scaleType="fitXY"/>
+        <TextView
+            android:id="@+id/namaTempat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:layout_below="@+id/thumbnail"/>
+        <TextView
+            android:id="@+id/hargaTempat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:layout_below="@+id/namaTempat"/>
+        <TextView
+            android:id="@+id/kontakTempat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:layout_below="@+id/hargaTempat"/>
+        <TextView
+            android:id="@+id/jenisTempat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:layout_below="@+id/kontakTempat"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/jenisTempat"
+            android:text="All your event needs iseoo.id"
+            android:textAlignment="center"
+            android:id="@+id/iseoo"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_below="@id/iseoo"/>
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
